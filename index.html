@@ -18,6 +18,12 @@
     <link rel="icon" href="Logo\favicon.ico" type="image/x-icon">
 
     <meta name="meta-tags" content="Anais Lopez Pease portfolio. Website created by Anais Pease to display her work. Mockups, logos, photography, links to other sites, and more. Originally created in December 2022, items added throughout the years. Biography about the designer and contact page. Look around and see what she can do for you. Feel free to ask questions via the contact page or follow her on social media for more information and content.">
+    <script>
+        function toggleMobileMenu() {
+    const mobileNav = document.querySelector('.mobile-nav');
+    mobileNav.classList.toggle('active');
+}
+    </script>
 
 </head>
 
@@ -26,17 +32,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
-                    <a href="index.html"><img src="images/AnaisLogoPreserved.png" id="header-img" alt="Anais Pease Designs logo." class="header-logo">
+                    <a href="index.html">
+                        <img src="images/AnaisLogoPreserved.png" id="header-img" alt="Anais Pease Designs logo." class="header-logo">
                     </a>
                 </div>
-                <h1>Anais Pease</h1>
-                <div class="col-lg-9 col-md-9 text-right">
-                    <!-- <div class="sitemap_icon" onclick="sitemapOpen()">
+                <div class="col-lg-9 col-md-9">
+                    <h1>Anais Pease</h1>
+                    <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+                        <!-- Your mobile menu icon -->
+                        <div class="sitemap_icon">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </div> -->
-                    <nav class="sitemap">
+                        </div>
+                    </div>
+                    <nav class="sitemap mobile-nav">
+                        <!-- Your mobile menu items -->
                         <ul>
                             <li><a href="index.html" class="home">Home</a></li>
                             <li><a href="#">Mockups</a></li>
@@ -51,10 +62,20 @@
 
     <article>
         <h2>Biography</h2>
-        <p>My name is Anais Lopez Pease. I am a full-stack web developer, graduate from Arizona State University. I am a first generation Mexican-American woman. Born and raised in San Fernando Valley, Los Angeles, California. I have been passionate about
-            web development since I was fourteen, and was a member of the website club in my high school.<br> I married a military man and had the opportunity to travel and live in many different place. Including Waihiawa, Hawaii. During that time I work
-            in finance at a bank and then in the higher education sector for a little over a decade. Then Covid happened. Like many people around the world it put a lot of things into perspective. One being that, although I loved my team and enjoyed my
-            work I was not excited about it.<br> I decided to go back to college and obtain a degree in something that will allow me to be creative as well as a creator.</p>
+        <p>I'm Anais Lopez Pease—a first-generation Mexican-American woman and a full-stack web developer, proudly graduated from Arizona State University. Growing up in the vibrant San Fernando Valley, Los Angeles, California, I discovered my passion for web development at the age of fourteen. I was an active member of the website club in my high school, igniting a lifelong fascination with crafting digital experiences.</p>
+
+        <p>My life took a unique turn when I married a military man. This journey blessed me with the opportunity to immerse myself in diverse cultures, including the stunning landscapes of Wahiawa, Hawaii. While there, I ventured into finance, initially at a bank and later within the higher education sector, accumulating over a decade of valuable experiences.</p>
+
+        <p>However, the world-altering arrival of the Covid pandemic prompted profound introspection. Despite cherishing my team and the work I did, I realized a lack of genuine excitement in my professional endeavors.</p>
+
+        <p>Driven by a desire for creativity and creation, I made a pivotal decision—to return to academia. I sought a field that would not only fuel my creativity but also empower me to be a creator myself. This led me back to the realm of web development, where I'm driven by the joy of building, designing, and innovating within the digital landscape.</p>
+        
+        <p>In my free time, I find joy and relaxation in a diverse range of activities. Ceramics is a passion that allows me to shape and mold my creativity into tangible works of art. Immersing myself in the world of literature offers me solace and new perspectives through the pages of countless books.</p>
+
+        <p>I'm not just a creator in the digital realm—I'm an avid gamer, exploring virtual worlds and challenging my mind with diverse gameplay. When I step away from screens, I indulge in the serenity of gardening, nurturing life and witnessing the beauty of nature firsthand.</p>
+
+        <p>But perhaps my greatest moments of happiness come from spending quality time with my beloved pets and cherished family. Their presence enriches my life, offering moments of pure joy and unwavering support in my journey through both professional and personal endeavors.</p>
+        
     </article>
 
     <footer>
