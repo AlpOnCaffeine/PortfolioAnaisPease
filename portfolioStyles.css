@@ -6,8 +6,10 @@
 }
 
 /* This makes the page responsive. */
-@media only screen and (max-width: 1280px){ body{
+@media only screen and (min-width: 735px) and (max-width: 1280px)
+{ body{
     background-color: black;
+    margin: 0;
 }
 }
 
@@ -26,14 +28,6 @@
 .sitemap_icon span:nth-child(2){
     margin: 4px 0;
 }
-
-@media only screen and (max-width: 1200px){ .sitemap{
-    margin-top: 0;
-    width: 180px;
-    transition: 0.4s ease-in-out;
-}
-}
-
 /* This is all the styling for the header and main nav. */
 header{
     background-color: #CFCAE3;
@@ -56,7 +50,7 @@ header{
     justify-content: space-evenly;
 }
 .header-logo{
-    width: 125px;
+    width: auto;
     height: 125px;
     padding: 5px;
     margin: 3px;
@@ -84,17 +78,17 @@ header{
     font-size: 1rem;
     border-radius: 15px;
     text-decoration: none;
-    background: #4A2A72;
+    background: #190A2B;
     color: #FFC990;
 }
 
 .sitemap a:hover{
     color: #FF7DE9;
-    background-color: #4A2A72;
+    background-color: #190A2B;
 }
 
 h1{
-    color: #4A2A72;
+    color: #190A2B;
     margin: 50px;
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 3rem;
@@ -104,10 +98,10 @@ h1{
 article{
     font-size: 1rem;
     color: #FFC990;
-    background-color: #4A2A72;
+    background-color: #190A2B;
     align-content: center;
     margin: 20px;
-    width: 850px;
+    width: auto;
 }
 h2{
     text-align: left;
@@ -123,7 +117,7 @@ p{
 }
 footer{
     background-color: #CFCAE3;
-    color: #4A2A72;
+    color: #190A2B;
     width: auto;
     height: auto;
     overflow: auto;
